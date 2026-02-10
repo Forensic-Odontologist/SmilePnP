@@ -32,8 +32,8 @@ If you encounter any bugs, please contact me!
 
 | Blender Version | Download | Documentation |
 |----------------|----------|---------------|
-| **4.0 - 4.4** | [SmilePnP_v0.1_Blender4.zip](https://github.com/votre-username/SmilePnP/releases/v0.1.0/SmilePnP_v0.1_Blender4.zip) | [Installation Guide](docs/installation.md) |
-| **5.0+** | [SmilePnP_v0.1_Blender5.zip](https://github.com/votre-username/SmilePnP/releases/v0.1.0/SmilePnP_v0.1_Blender5.zip) | [Installation Guide](docs/installation.md) |
+| **4.0 - 4.4** | [SmilePnP_v0.1_Blender4.zip](https://github.com/Forensic-Odontologist/SmilePnP/releases/v0.1.0/SmilePnP_v0.1_Blender4.zip) | [Installation Guide](docs/installation.md) |
+| **5.0+** | [SmilePnP_v0.1_Blender5.zip](https://github.com/Forensic-Odontologist/SmilePnP/releases/v0.1.0/SmilePnP_v0.1_Blender5.zip) | [Installation Guide](docs/installation.md) |
 
 ### Quick Install
 
@@ -127,7 +127,7 @@ If you use SmilePnP in your research, please cite:
   author = {Diakonoff, Hadrien},
   title = {SmilePnP: Blender Add-on for Forensic Smile-Based Dental Identification},
   year = {2026},
-  url = {https://github.com/votre-username/SmilePnP},
+  url = {https://github.com/Forensic-Odontologist/SmilePnP},
   version = {0.1.0},
   license = {GPL-3.0}
 }
@@ -187,8 +187,8 @@ Bug reports, questions : please contact me on Linkedin
 ## Links
 
 - **Documentation**: [docs/](docs/)
-- **Releases**: [GitHub Releases](https://github.com/votre-username/SmilePnP/releases)
-- **Issues**: [GitHub Issues](https://github.com/votre-username/SmilePnP/issues)
+- **Releases**: [GitHub Releases](https://github.com/Forensic-Odontologist/SmilePnP/releases)
+- **Issues**: [GitHub Issues](https://github.com/Forensic-Odontologist/SmilePnP/issues)
 - **License**: [GPL-3.0](LICENSE)
 
 ---
