@@ -32,8 +32,8 @@ If you encounter any bugs, please contact me!
 
 | Blender Version | Download | Documentation |
 |----------------|----------|---------------|
-| **4.0 - 4.4** | [SmilePnP_v0.1_Blender4.zip](https://github.com/Forensic-Odontologist/SmilePnP/releases/v0.1.0/SmilePnP_v0.1_Blender4.zip) | [Installation Guide](docs/installation.md) |
-| **5.0+** | [SmilePnP_v0.1_Blender5.zip](https://github.com/Forensic-Odontologist/SmilePnP/releases/v0.1.0/SmilePnP_v0.1_Blender5.zip) | [Installation Guide](docs/installation.md) |
+| **4.0 - 4.4** | [SmilePnP_v0.1_Blender4.zip](https://github.com/Forensic-Odontologist/SmilePnP/blob/main/releases/v0.1.0/SmilePnP_v0.1_Blender4.zip) | [Installation Guide](docs/installation.md) |
+| **5.0+** | [SmilePnP_v0.1_Blender5.zip](https://github.com/Forensic-Odontologist/SmilePnP/blob/main/releases/v0.1.0/SmilePnP_v0.1_Blender5.zip) | [Installation Guide](docs/installation.md) |
 
 ### Quick Install
 
