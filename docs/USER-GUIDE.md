@@ -34,6 +34,10 @@ The add-on requires OpenCV (a computer vision library). When you first open the 
 3. Blender will need to be restarted after installation
 4. Once restarted, the add-on should work normally
 
+
+https://github.com/user-attachments/assets/8763059a-469e-498e-9b89-1ad45be599a1
+
+
 ---
 
 ### Step 2: Initialize the scene
