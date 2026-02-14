@@ -217,7 +217,15 @@ def solve_pnp(operator: bpy.types.Operator, context: bpy.types.Context) -> str:
     idx = _select_solution(rvecs, reprojection_errors)
     rvec = rvecs[idx]
     tvec = tvecs[idx]
-    repro_error = float(reprojection_errors[idx]) if reprojection_errors else 0.0
+    if reprojection_errors is not None and len(reprojection_errors) > idx:
+        repro_error_val = reprojection_errors[idx]
+        # Convert numpy array to scalar if needed (OpenCV/numpy version may return array)
+        if isinstance(repro_error_val, np.ndarray):
+            repro_error = float(repro_error_val.item() if repro_error_val.size == 1 else repro_error_val.flatten()[0])
+        else:
+            repro_error = float(repro_error_val)
+    else:
+        repro_error = 0.0
 
     rmat, _ = cv.Rodrigues(rvec)
     R_world2cv = Matrix(rmat.tolist())
