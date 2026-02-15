@@ -12,11 +12,11 @@ The add-on uses computer vision techniques to match 2D points from a photograph 
 
 ### Step 1: Install the add-on and OpenCV
 
-#### 1.1: Install Blender
+#### 1.1: Install Blender (video 1 below)
 
 If you haven't already, download and install Blender from the [official Blender website](https://www.blender.org/). The add-on requires Blender 4.0 or later. 
 
-#### 1.2: Install the SmilePnP add-on
+#### 1.2: Install the SmilePnP add-on (video 1 & 2)
 
 1. Download the SmilePnP add-on (`.zip` file) - do not extract it
 2. In Blender, go to `Edit > Preferences > Add-ons`
@@ -25,7 +25,7 @@ If you haven't already, download and install Blender from the [official Blender 
 5. After installation, search for "SmilePnP" in the add-ons list
 6. Check the box next to "SmilePnP" to enable it
 
-### 1.3: Installing OpenCV (required dependency)
+### 1.3: Installing OpenCV (required dependency) (video 2)
 
 The add-on requires OpenCV (a computer vision library). When you first open the SmilePnP panel, you'll see an **"Install OpenCV"** button if it's not already installed.
 
@@ -34,8 +34,13 @@ The add-on requires OpenCV (a computer vision library). When you first open the 
 3. Blender will need to be restarted after installation
 4. Once restarted, the add-on should work normally
 
+### Video 1 : installing Blender on MacOS
 
 https://github.com/user-attachments/assets/8763059a-469e-498e-9b89-1ad45be599a1
+
+### Video 2 : opening Blender, 3D viewport interface and installing SmilePnP and OpenCV on MacOS
+
+https://github.com/user-attachments/assets/ee71d8c2-03e0-4dc4-919a-b439b87940ce
 
 
 ---
@@ -56,15 +61,24 @@ The initialization automatically:
 - Sets 3D cursor to origin (0,0,0)
 - Creates a "3D_Landmarks" collection to organize landmarks
 
+### Video 3: Initialize the scene
+
+https://github.com/user-attachments/assets/30b9b8c2-e1cb-4bef-b894-aa60f8b0f808
+
+
 ---
 
 ### Step 3: Load the ante-mortem photograph and place 2D landmarks
 
-#### 3.1: Load the photograph
+#### 3.1: Load the AM photograph
 
 1. In the **Clip Editor**, click **"Open"** (or `Image > Open Image`)
 2. Navigate to your smile photograph and select it
 3. The image appears in the Clip Editor
+
+### Video 4: Load the AM photograph (2D data)
+
+https://github.com/user-attachments/assets/b5eacd05-1c90-4ba2-883f-583f8420b22c
 
 #### 3.2: Place 2D tracking markers
 
@@ -78,6 +92,11 @@ The initialization automatically:
 **Tips**:
 - Avoid ambiguous points or areas with motion blur
 - Use descriptive names to make matching easier later
+
+### Video 5: Placement of 2D Landmarks
+
+https://github.com/user-attachments/assets/9dc7ef3e-c243-44c6-beac-a77a2df7aa7d
+
 
 #### 3.3: Link the photograph to the add-on
 
