@@ -36,11 +36,11 @@ The add-on requires OpenCV (a computer vision library). When you first open the 
 3. Blender will need to be restarted after installation
 4. Once restarted, the add-on should work normally
 
-### Video 1 : installing Blender on MacOS
+#### Video 1 : installing Blender on MacOS
 
 https://github.com/user-attachments/assets/8763059a-469e-498e-9b89-1ad45be599a1
 
-### Video 2 : opening Blender, 3D viewport interface and installing SmilePnP and OpenCV on MacOS
+#### Video 2 : opening Blender, 3D viewport interface and installing SmilePnP and OpenCV on MacOS
 
 https://github.com/user-attachments/assets/ee71d8c2-03e0-4dc4-919a-b439b87940ce
 
@@ -63,7 +63,7 @@ The initialization automatically:
 - Sets 3D cursor to origin (0,0,0)
 - Creates a "3D_Landmarks" collection to organize landmarks
 
-### Video 3: Initialize the scene
+#### Video 3: Initialize the scene
 
 https://github.com/user-attachments/assets/30b9b8c2-e1cb-4bef-b894-aa60f8b0f808
 
@@ -78,7 +78,7 @@ https://github.com/user-attachments/assets/30b9b8c2-e1cb-4bef-b894-aa60f8b0f808
 2. Navigate to your smile photograph and select it
 3. The image appears in the Clip Editor
 
-### Video 4: Load the AM photograph (2D data)
+#### Video 4: Load the AM photograph (2D data)
 
 https://github.com/user-attachments/assets/b5eacd05-1c90-4ba2-883f-583f8420b22c
 
@@ -95,7 +95,7 @@ https://github.com/user-attachments/assets/b5eacd05-1c90-4ba2-883f-583f8420b22c
 - Avoid ambiguous points or areas with motion blur
 - Use descriptive names to make matching easier later
 
-### Video 5: Placement of 2D Landmarks
+#### Video 5: Placement of 2D Landmarks
 
 https://github.com/user-attachments/assets/9dc7ef3e-c243-44c6-beac-a77a2df7aa7d
 
@@ -120,11 +120,19 @@ https://github.com/user-attachments/assets/9dc7ef3e-c243-44c6-beac-a77a2df7aa7d
   - Delete them (`X` > Delete)
   - Exit Edit Mode (`Tab`)
 
+#### Video 6: 3D dental model importation
+
+https://github.com/user-attachments/assets/14cc2e5e-2d09-4400-943f-ec88d93d8628
+
 #### Positioning the Inter-Incisal Point at the World Origin
 
 - Identify the inter-incisal point on the mesh.
 - In Object Mode, translate the model so that the inter-incisal point is positioned at the Blender scene origin (0, 0, 0).
 - This operation does not alter the geometry of the model and establishes a consistent reference coordinate system for the entire workflow.
+
+#### Video 7: Positioning the Inter-Incisal Point at the World Origin
+
+https://github.com/user-attachments/assets/139ec673-dc41-4003-90d5-5484aabb3483
 
 #### Orientation of the Model Along the X, Y, and Z Axes
 
