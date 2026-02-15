@@ -1,5 +1,7 @@
 # SmilePnP V. 0.1.0 – User Guide
 
+⚠️🚧 **Work in progress** : This content is currently being updated with videos.
+
 ## Introduction
 
 **SmilePnP** is a Blender add-on designed for forensic dental identification. It allows you to align a 3D dental arch model with a 2D photograph of a smile by calculating the precise camera position and orientation that would have captured the photo.
@@ -97,7 +99,6 @@ https://github.com/user-attachments/assets/b5eacd05-1c90-4ba2-883f-583f8420b22c
 
 https://github.com/user-attachments/assets/9dc7ef3e-c243-44c6-beac-a77a2df7aa7d
 
-
 #### 3.3: Link the photograph to the add-on
 
 1. In the SmilePnP panel, find the **"2D Clip"** field
@@ -112,18 +113,18 @@ https://github.com/user-attachments/assets/9dc7ef3e-c243-44c6-beac-a77a2df7aa7d
 3. Navigate to your 3D dental arch file and import it
 4. The model appears in the 3D viewport
 
-#### Positioning the Inter-Incisal Point at the World Origin
-
-- Identify the inter-incisal point on the mesh.
-- In Object Mode, translate the model so that the inter-incisal point is positioned at the Blender scene origin (0, 0, 0).
-- This operation does not alter the geometry of the model and establishes a consistent reference coordinate system for the entire workflow.
-
 **Optional - Clean the model**:
 - If the model contains unwanted geometry (gums, other structures), you can:
   - Enter Edit Mode (`Tab`)
   - Select unwanted parts
   - Delete them (`X` > Delete)
   - Exit Edit Mode (`Tab`)
+
+#### Positioning the Inter-Incisal Point at the World Origin
+
+- Identify the inter-incisal point on the mesh.
+- In Object Mode, translate the model so that the inter-incisal point is positioned at the Blender scene origin (0, 0, 0).
+- This operation does not alter the geometry of the model and establishes a consistent reference coordinate system for the entire workflow.
 
 #### Orientation of the Model Along the X, Y, and Z Axes
 
