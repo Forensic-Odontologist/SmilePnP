@@ -158,6 +158,10 @@ https://github.com/user-attachments/assets/139ec673-dc41-4003-90d5-5484aabb3483
 - Click on the cusp tip of the first canine, then click on the cusp tip of the contralateral canine.
 - Record the virtual inter-canine distance measured in Blender.
 
+#### Video 9: Inter-Canine Distance check
+
+https://github.com/user-attachments/assets/9bd3d887-7016-471a-91ea-18f0c5807e3f
+
 #### Scale Adjustment (If Required)
 
 - Compare the virtual inter-canine distance with the real inter-canine distance measured post-mortem.
