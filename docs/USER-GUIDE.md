@@ -1,7 +1,5 @@
 # SmilePnP V. 0.1.0 – User Guide
 
-⚠️🚧 **Work in progress** : This content is currently being updated with videos.
-
 ## Introduction
 
 **SmilePnP** is a Blender add-on designed for forensic dental identification. It allows you to align a 3D dental arch model with a 2D photograph of a smile by calculating the precise camera position and orientation that would have captured the photo.
@@ -292,6 +290,11 @@ https://github.com/user-attachments/assets/b6c92306-3fbc-4d9e-9823-8c633a8b51d2
 
 **Minimum required**: 4 correspondences / 6 or more for calibration
 
+
+Video 12: Link 2D tracks to 3D landmarks
+
+https://github.com/user-attachments/assets/df7088a6-c7cf-41b1-922d-8d22885c54ca
+
 ---
 
 ### Step 9: Calibrate and solve the camera pose
@@ -316,9 +319,10 @@ https://github.com/user-attachments/assets/b6c92306-3fbc-4d9e-9823-8c633a8b51d2
 
 #### 9.3: Solve the camera pose
 
-1. Click the **"Solve camera pose"** button
-2. Wait for the calculation (usually 1-2 seconds)
-3. Check the result:
+1. Be sure that all 3D objects are visible (3D arcade and LineArt)
+2. Click the **"Solve camera pose"** button
+3. Wait for the calculation (usually 1-2 seconds)
+4. Check the result:
    - A message appears showing the reprojection error
    - Switch to Camera view (`Numpad 0`) to see the photograph as background
 
@@ -326,9 +330,8 @@ https://github.com/user-attachments/assets/b6c92306-3fbc-4d9e-9823-8c633a8b51d2
 - The 3D arch should appear aligned with the photograph (when viewed through the camera)
 
 **Understanding reprojection error**:
-- Measures how well the calculated camera parameters match your correspondences
-- Measured in pixels
-- **Lower is better**: < 1 pixel = excellent, 1-2 pixels = good, > 2 pixels = may need improvement
+- Measured in pixels, reprojection error measures how well the calculated camera parameters match your correspondences
+- **Lower is better**: < 1 pixel = excellent, 1-2 pixels = good, > 2 pixels = may need improvement, > 5 pixels = exclusion
 
 **If you see "SQPNP failed, using ITERATIVE..."**:
 - This is **not an error** - it's an automatic fallback
@@ -341,6 +344,10 @@ If you get errors or high reprojection errors:
 1. Click the **🔄 Reset** button (next to "Calibrate camera")
 2. This resets focal length and other parameters to defaults
 3. Start over: Calibrate → Solve pose
+
+Video 13: camera calibration
+
+https://github.com/user-attachments/assets/addd2374-f1ac-4f55-b655-4b0328326c17
 
 ---
 
@@ -408,8 +415,11 @@ If you get errors or high reprojection errors:
 
 **Saving the result**:
 - In the Image Editor, go to `Image > Save As`
-- Choose a location and filename
-- Select your preferred format (PNG recommended for transparency support)
+- Choose a location and filename and select your preferred format.
+
+Video 14: compositing and render
+
+https://github.com/user-attachments/assets/422323d3-b1e5-4b9e-bb2e-031c1a7e6005
 
 ---
 
@@ -434,7 +444,7 @@ The report includes:
 
 ---
 
-## Understanding Your Results
+## Understanding the Results
 
 ### Visual Alignment Assessment
 
