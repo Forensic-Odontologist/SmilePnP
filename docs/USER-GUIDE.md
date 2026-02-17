@@ -65,8 +65,7 @@ The initialization automatically:
 
 #### Video 3: Initialize the scene
 
-https://github.com/user-attachments/assets/30b9b8c2-e1cb-4bef-b894-aa60f8b0f808
-
+https://github.com/user-attachments/assets/c7fd2422-7137-4c10-a59e-d0706a1f5125
 
 ---
 
@@ -134,7 +133,7 @@ https://github.com/user-attachments/assets/14cc2e5e-2d09-4400-943f-ec88d93d8628
 
 https://github.com/user-attachments/assets/139ec673-dc41-4003-90d5-5484aabb3483
 
-#### Orientation of the Model Along the X, Y, and Z Axes
+#### Orientation of the Model Along the X, Y, and Z Axes (if required)
 
 - Adjust the orientation of the 3D model using the X, Y, and Z rotation fields.
 - The desired spatial configuration is:
@@ -146,10 +145,9 @@ https://github.com/user-attachments/assets/139ec673-dc41-4003-90d5-5484aabb3483
    - Y / –Y: frontal views (–Y corresponds to the default frontal view)
    - Z / –Z: superior and inferior views
 
-#### Applying the Orientation Transformation
+#### Video 10: 3D orientation of the model.
 
-- Once the correct orientation is achieved, apply the transformation:
-- Object > Apply > All Transforms
+https://github.com/user-attachments/assets/f3479114-4c67-4da7-82dd-9fd0bffce4a8
 
 #### Check the Inter-Canine Distance
 
@@ -170,6 +168,11 @@ https://github.com/user-attachments/assets/9bd3d887-7016-471a-91ea-18f0c5807e3f
 - Validate the scaling permanently via: Object > Apply > Scale
 
 This ensures that the 3D model is dimensionally consistent with anatomical measurements.
+
+#### Applying the Orientation Transformation (position, rotation, scale...)
+
+- Once the correct orientation is achieved, apply the transformation:
+- Object > Apply > All Transforms
 
 ---
 
@@ -201,6 +204,10 @@ Configure edge detection:
 This applies a red material to the outline (by default), visible on render.
 
 **Note**: You can change the outline color using the color picker next to the button.
+
+#### Video 10: Line art configuration
+
+https://github.com/user-attachments/assets/7455fdd7-707e-4941-88e6-8480ab7e0968
 
 ---
 
@@ -258,6 +265,10 @@ This applies a red material to the outline (by default), visible on render.
 - Use multiple views - rotate the model to see the point from different angles
 - Zoom in for precise placement
 - Match the exact anatomical location - the tip of a canine on the photo should match the tip of the same canine on the 3D model
+
+Video 11: 3D Landmarks placements
+
+https://github.com/user-attachments/assets/b6c92306-3fbc-4d9e-9823-8c633a8b51d2
 
 ---
 
