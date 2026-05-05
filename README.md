@@ -164,25 +164,7 @@ Bug reports, questions : please contact me on Linkedin
 
 - **Blender Foundation** for the open-source 3D software
 - **OpenCV community** for computer vision algorithms
-- **Roger Torm** for the original CameraPnPoint add-on
-
----
-
-## Screenshots
-
-### Interface
-
-*(To be added: Screenshot of SmilePnP panel in Blender)*
-
-### Workflow Example
-
-*(To be added: Before/after superimposition comparison)*
-
-### Quality Report
-
-*(To be added: Example of generated report)*
-
----
+- **Roger Torm** for the original CameraPnPoint Blender add-on
 
 ## Links
 
